@@ -1,5 +1,10 @@
 name: Artifacts
 
+permissions:
+  contents: read
+  packages: write
+  security-events: read|write|none
+
 on:
   push:
     branches:
