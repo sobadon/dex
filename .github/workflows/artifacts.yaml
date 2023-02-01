@@ -3,7 +3,7 @@ name: Artifacts
 permissions:
   contents: read
   packages: write
-  security-events: read|write|none
+  security-events: write
 
 on:
   push:
