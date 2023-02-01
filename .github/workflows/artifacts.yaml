@@ -13,7 +13,6 @@ jobs:
     strategy:
       matrix:
         variant:
-          - alpine
           - distroless
 
     steps:
